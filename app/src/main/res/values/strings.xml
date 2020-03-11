@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="线性布局">线性布局</string>
+    <string name="相对布局">相对布局</string>
+    <string name="帆布局">帆布局</string>
+    <string name="表格布局">表格布局</string>
+    <string name="网格布局">网格布局</string>
+    <string name="水平布局">水平布局</string>
+    <string name="垂直布局">垂直布局</string>
+    <string name="靠左对齐">靠左对齐</string>
+    <string name="返回">返回</string>
+    <string name="第一个Button">第一个button</string>
+    <string name="第二个Button">第二个button</string>
+    <string name="第三个Button">第三个button</string>
+    <string name="第四个Button">第四个button</string>
+    <string name="第一个button">第一个button</string>
+    <string name="第三个button">第三个button</string>
+    <string name="第四个button">第四个button</string>
+</resources>

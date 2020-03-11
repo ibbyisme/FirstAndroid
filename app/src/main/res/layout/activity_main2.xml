@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ViewFlipper
+            android:id="@+id/filpper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+            android:src="@drawable/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           </ImageView>
+           <ImageView
+            android:src="@drawable/imageview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           </ImageView>
+           <ImageView
+            android:src="@drawable/imageview3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           </ImageView>
+           <ImageView
+            android:src="@drawable/imageview4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           </ImageView>
+           <ImageView
+            android:src="@drawable/imageview5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           </ImageView>
+    </ViewFlipper>
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="427dp"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom"
+            android:text="@string/返回"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imageview1"
+        app:layout_anchor="@+id/frameLayout"
+        app:layout_anchorGravity="center"></ImageView>-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
